@@ -1,0 +1,15 @@
+Next Upgrades
+
+After this works:
+
+Add LangGraph workflow.
+Add Silver and Oil agents.
+Add MongoDB Atlas Vector Search.
+Add historical similarity search.
+Add prediction accuracy tracking.
+Add Langfuse observability.
+Add scheduler.
+Deploy FastAPI to Render.
+Deploy Streamlit to Streamlit Cloud.
+
+This MVP is about 150–200 lines of code and is the fastest path to a working Gold AI application.
