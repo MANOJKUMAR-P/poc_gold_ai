@@ -1,5 +1,8 @@
 from pymongo import MongoClient
+from config import MONGODB_URI
 
-def get_client(uri: str = None):
-    """Return a MongoClient connected to the given URI or localhost."""
-    return MongoClient(uri or "mongodb://localhost:27017")
+client = MongoClient(MONGODB_URI)
+
+db = client["goldsense"]
+
+predictions = db["predictions"]

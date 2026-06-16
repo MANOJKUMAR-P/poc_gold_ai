@@ -1,3 +1,14 @@
-flask
+langgraph
+langchain
+langchain-groq
+
+groq
+
+yfinance
+requests
+
 pymongo
+
 streamlit
+
+python-dotenv

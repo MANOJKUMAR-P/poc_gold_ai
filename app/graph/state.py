@@ -1,5 +1,7 @@
-class State:
-    """Simple state representation."""
-    def __init__(self, name: str = "default"):
-        self.name = name
-        self.data = {}
+from typing import TypedDict
+
+class GoldState(TypedDict):
+    market_data: dict
+    news_data: str
+    analysis: str
+    decision: str

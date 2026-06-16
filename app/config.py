@@ -1,5 +1,8 @@
 import os
+from dotenv import load_dotenv
 
-class Config:
-    DEBUG = os.getenv('DEBUG', 'False') == 'True'
-    MONGO_URI = os.getenv('MONGO_URI', 'mongodb://localhost:27017')
+load_dotenv()
+
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+MONGODB_URI = os.getenv("MONGODB_URI")
+NEWS_API_KEY = os.getenv("NEWS_API_KEY")
